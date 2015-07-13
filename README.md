@@ -36,4 +36,8 @@ Visit http://localhost:9966/
 - [ ] Allow row selection & select all
 - [ ] Add contextual action buttons on column selection
 
+### Collaboration
+
+Please check out [this issues](https://github.com/digidem/smart-data-table/issues) and join the discussion about how to design this, and feel free to jump in with pull requests. Please assign an issue to yourself if you are going to start working on something, so others know, and remove your assignment if you stop working.
+
 
