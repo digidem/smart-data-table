@@ -15,9 +15,6 @@ const layout = {
   rowHeight: 48
 }
 
-// The GetContainerDimensions decorator injects the containerWidth
-// and containerHeight into the props
-@GetContainerDimensions()
 class DataTable extends React.Component {
   static propTypes = {
     rows: PropTypes.arrayOf(PropTypes.object).isRequired,
@@ -85,4 +82,6 @@ class DataTable extends React.Component {
   }
 }
 
-export default DataTable
+// The GetContainerDimensions decorator injects the containerWidth
+// and containerHeight into the props
+export default GetContainerDimensions()(DataTable)
